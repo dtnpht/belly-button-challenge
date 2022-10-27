@@ -104,18 +104,18 @@ function buildCharts(sample) {
         title: { text: "Belly Button Washing Frequency Per Week", font: { size: 20 } },
         gauge: {
         axis: { range: [null, 9], tickwidth: 1, tickcolor: "black" },
-                bar: { color: "#F7BCC0" },
+                bar: { color: otu_ids },
                 bgcolor: "white",
                 steps: [
-                  {range: [0, 1], color: "#C0D4C2"},
-                  {range: [1, 2], color: "#EDEEDE"},
-                  {range: [2, 3], color: "#C0D4C2"},
-                  {range: [3, 4], color: "#EDEEDE"},
-                  {range: [4, 5], color: "#C0D4C2"},
-                  {range: [5, 6], color: "#EDEEDE"},
-                  {range: [6, 7], color: "#C0D4C2"},
-                  {range: [7, 8], color: "#EDEEDE"},
-                  {range: [8, 9], color: "#C0D4C2"} 
+                  {range: [0, 1], color: "#0f0"},
+                  {range: [1, 2], color: "#2d0"},
+                  {range: [2, 3], color: "#4b0"},
+                  {range: [3, 4], color: "#690"},
+                  {range: [4, 5], color: "#870"},
+                  {range: [5, 6], color: "#a50"},
+                  {range: [6, 7], color: "#c30"},
+                  {range: [7, 8], color: "#e10"},
+                  {range: [8, 9], color: "#f03"} 
                 ],
               }
     }];
